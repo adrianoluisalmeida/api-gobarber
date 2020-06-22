@@ -20,7 +20,7 @@ const userAvatarController = new UserAvatarController();
 
 // Instance Libs
 const usersRouter = Router();
-const upload = multer(uploadConfig);
+const upload = multer(uploadConfig.multer);
 
 // Routes
 usersRouter.post(
